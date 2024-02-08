@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDFE04C62B758B2500341B7E /* FotobotonesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFE04C52B758B2500341B7E /* FotobotonesApp.swift */; };
+		DDFE04C82B758B2500341B7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFE04C72B758B2500341B7E /* ContentView.swift */; };
+		DDFE04CA2B758B2600341B7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDFE04C92B758B2600341B7E /* Assets.xcassets */; };
+		DDFE04CD2B758B2600341B7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDFE04CC2B758B2600341B7E /* Preview Assets.xcassets */; };
+		DDFE04D72B758B2700341B7E /* FotobotonesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFE04D62B758B2700341B7E /* FotobotonesTests.swift */; };
+		DDFE04E12B758B2700341B7E /* FotobotonesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFE04E02B758B2700341B7E /* FotobotonesUITests.swift */; };
+		DDFE04E32B758B2700341B7E /* FotobotonesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFE04E22B758B2700341B7E /* FotobotonesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDFE04D32B758B2700341B7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDFE04BA2B758B2500341B7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDFE04C12B758B2500341B7E;
+			remoteInfo = Fotobotones;
+		};
+		DDFE04DD2B758B2700341B7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDFE04BA2B758B2500341B7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDFE04C12B758B2500341B7E;
+			remoteInfo = Fotobotones;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDFE04C22B758B2500341B7E /* Fotobotones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fotobotones.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFE04C52B758B2500341B7E /* FotobotonesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotobotonesApp.swift; sourceTree = "<group>"; };
+		DDFE04C72B758B2500341B7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DDFE04C92B758B2600341B7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDFE04CC2B758B2600341B7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DDFE04D22B758B2700341B7E /* FotobotonesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FotobotonesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFE04D62B758B2700341B7E /* FotobotonesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotobotonesTests.swift; sourceTree = "<group>"; };
+		DDFE04DC2B758B2700341B7E /* FotobotonesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FotobotonesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFE04E02B758B2700341B7E /* FotobotonesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotobotonesUITests.swift; sourceTree = "<group>"; };
+		DDFE04E22B758B2700341B7E /* FotobotonesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotobotonesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDFE04BF2B758B2500341B7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFE04CF2B758B2700341B7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFE04D92B758B2700341B7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDFE04B92B758B2500341B7E = {
+			isa = PBXGroup;
+			children = (
+				DDFE04C42B758B2500341B7E /* Fotobotones */,
+				DDFE04D52B758B2700341B7E /* FotobotonesTests */,
+				DDFE04DF2B758B2700341B7E /* FotobotonesUITests */,
+				DDFE04C32B758B2500341B7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDFE04C32B758B2500341B7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDFE04C22B758B2500341B7E /* Fotobotones.app */,
+				DDFE04D22B758B2700341B7E /* FotobotonesTests.xctest */,
+				DDFE04DC2B758B2700341B7E /* FotobotonesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDFE04C42B758B2500341B7E /* Fotobotones */ = {
+			isa = PBXGroup;
+			children = (
+				DDFE04C52B758B2500341B7E /* FotobotonesApp.swift */,
+				DDFE04C72B758B2500341B7E /* ContentView.swift */,
+				DDFE04C92B758B2600341B7E /* Assets.xcassets */,
+				DDFE04CB2B758B2600341B7E /* Preview Content */,
+			);
+			path = Fotobotones;
+			sourceTree = "<group>";
+		};
+		DDFE04CB2B758B2600341B7E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DDFE04CC2B758B2600341B7E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DDFE04D52B758B2700341B7E /* FotobotonesTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDFE04D62B758B2700341B7E /* FotobotonesTests.swift */,
+			);
+			path = FotobotonesTests;
+			sourceTree = "<group>";
+		};
+		DDFE04DF2B758B2700341B7E /* FotobotonesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDFE04E02B758B2700341B7E /* FotobotonesUITests.swift */,
+				DDFE04E22B758B2700341B7E /* FotobotonesUITestsLaunchTests.swift */,
+			);
+			path = FotobotonesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDFE04C12B758B2500341B7E /* Fotobotones */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDFE04E62B758B2700341B7E /* Build configuration list for PBXNativeTarget "Fotobotones" */;
+			buildPhases = (
+				DDFE04BE2B758B2500341B7E /* Sources */,
+				DDFE04BF2B758B2500341B7E /* Frameworks */,
+				DDFE04C02B758B2500341B7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fotobotones;
+			productName = Fotobotones;
+			productReference = DDFE04C22B758B2500341B7E /* Fotobotones.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDFE04D12B758B2700341B7E /* FotobotonesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDFE04E92B758B2700341B7E /* Build configuration list for PBXNativeTarget "FotobotonesTests" */;
+			buildPhases = (
+				DDFE04CE2B758B2700341B7E /* Sources */,
+				DDFE04CF2B758B2700341B7E /* Frameworks */,
+				DDFE04D02B758B2700341B7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDFE04D42B758B2700341B7E /* PBXTargetDependency */,
+			);
+			name = FotobotonesTests;
+			productName = FotobotonesTests;
+			productReference = DDFE04D22B758B2700341B7E /* FotobotonesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDFE04DB2B758B2700341B7E /* FotobotonesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDFE04EC2B758B2700341B7E /* Build configuration list for PBXNativeTarget "FotobotonesUITests" */;
+			buildPhases = (
+				DDFE04D82B758B2700341B7E /* Sources */,
+				DDFE04D92B758B2700341B7E /* Frameworks */,
+				DDFE04DA2B758B2700341B7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDFE04DE2B758B2700341B7E /* PBXTargetDependency */,
+			);
+			name = FotobotonesUITests;
+			productName = FotobotonesUITests;
+			productReference = DDFE04DC2B758B2700341B7E /* FotobotonesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDFE04BA2B758B2500341B7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DDFE04C12B758B2500341B7E = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					DDFE04D12B758B2700341B7E = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = DDFE04C12B758B2500341B7E;
+					};
+					DDFE04DB2B758B2700341B7E = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = DDFE04C12B758B2500341B7E;
+					};
+				};
+			};
+			buildConfigurationList = DDFE04BD2B758B2500341B7E /* Build configuration list for PBXProject "Fotobotones" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDFE04B92B758B2500341B7E;
+			productRefGroup = DDFE04C32B758B2500341B7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDFE04C12B758B2500341B7E /* Fotobotones */,
+				DDFE04D12B758B2700341B7E /* FotobotonesTests */,
+				DDFE04DB2B758B2700341B7E /* FotobotonesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDFE04C02B758B2500341B7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFE04CD2B758B2600341B7E /* Preview Assets.xcassets in Resources */,
+				DDFE04CA2B758B2600341B7E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFE04D02B758B2700341B7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFE04DA2B758B2700341B7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDFE04BE2B758B2500341B7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFE04C82B758B2500341B7E /* ContentView.swift in Sources */,
+				DDFE04C62B758B2500341B7E /* FotobotonesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFE04CE2B758B2700341B7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFE04D72B758B2700341B7E /* FotobotonesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFE04D82B758B2700341B7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFE04E12B758B2700341B7E /* FotobotonesUITests.swift in Sources */,
+				DDFE04E32B758B2700341B7E /* FotobotonesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDFE04D42B758B2700341B7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDFE04C12B758B2500341B7E /* Fotobotones */;
+			targetProxy = DDFE04D32B758B2700341B7E /* PBXContainerItemProxy */;
+		};
+		DDFE04DE2B758B2700341B7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDFE04C12B758B2500341B7E /* Fotobotones */;
+			targetProxy = DDFE04DD2B758B2700341B7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DDFE04E42B758B2700341B7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDFE04E52B758B2700341B7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDFE04E72B758B2700341B7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fotobotones/Preview Content\"";
+				DEVELOPMENT_TEAM = 7J77M7XTN8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-upah.Fotobotones";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDFE04E82B758B2700341B7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fotobotones/Preview Content\"";
+				DEVELOPMENT_TEAM = 7J77M7XTN8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-upah.Fotobotones";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DDFE04EA2B758B2700341B7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7J77M7XTN8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-upah.FotobotonesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fotobotones.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fotobotones";
+			};
+			name = Debug;
+		};
+		DDFE04EB2B758B2700341B7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7J77M7XTN8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-upah.FotobotonesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fotobotones.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fotobotones";
+			};
+			name = Release;
+		};
+		DDFE04ED2B758B2700341B7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7J77M7XTN8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-upah.FotobotonesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fotobotones;
+			};
+			name = Debug;
+		};
+		DDFE04EE2B758B2700341B7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7J77M7XTN8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-upah.FotobotonesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fotobotones;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDFE04BD2B758B2500341B7E /* Build configuration list for PBXProject "Fotobotones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFE04E42B758B2700341B7E /* Debug */,
+				DDFE04E52B758B2700341B7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDFE04E62B758B2700341B7E /* Build configuration list for PBXNativeTarget "Fotobotones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFE04E72B758B2700341B7E /* Debug */,
+				DDFE04E82B758B2700341B7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDFE04E92B758B2700341B7E /* Build configuration list for PBXNativeTarget "FotobotonesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFE04EA2B758B2700341B7E /* Debug */,
+				DDFE04EB2B758B2700341B7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDFE04EC2B758B2700341B7E /* Build configuration list for PBXNativeTarget "FotobotonesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFE04ED2B758B2700341B7E /* Debug */,
+				DDFE04EE2B758B2700341B7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDFE04BA2B758B2500341B7E /* Project object */;
+}
